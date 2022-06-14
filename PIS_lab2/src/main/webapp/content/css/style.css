@@ -1,0 +1,234 @@
+@import "./constants.css";
+
+*{
+    font-family: "Raleway", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main_container{
+    position: absolute;
+    left: 0;
+    top:0;
+    min-height: 100%;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_content{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main_content.column{
+    flex-direction: column;
+}
+
+.content{
+    position: relative;
+    top:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    flex: 1 1 auto;
+}
+
+.form{
+    position: relative;
+    width: 472px;
+    padding: 2px 2px 20px 2px;
+    box-shadow: inset 0 0 0 3px var(--solace-black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form .form_title{
+    position: relative;
+    color: var(--solace-white);
+    background-color: var(--solace-black);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 63px;
+}
+
+.form_title h2{
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.form fieldset{
+    margin: 5px 5px;
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    border: transparent;
+    align-items: center;
+}
+
+.sign_parameter{
+    position: relative;
+    margin-bottom: 15px;
+    width: 312px;
+}
+
+.sign_parameter label{
+    display: block;
+    margin-top: 5px;
+    color:var(--solace-dark-grey);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.parameter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 200px;
+    margin:20px 0;
+}
+
+
+.parameter label{
+    display: block;
+    color:var(--solace-dark-grey);
+    font-weight: 500;
+    font-size: 14px;
+    flex: 0 0 auto;
+}
+
+.text_input{
+    border: solid 2px var(--solace-black);
+    padding-left: 20px;
+    height: 48px;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.text_input:focus, .show_password:focus{
+    outline: 0;
+}
+
+.show_password{
+    position: absolute;
+    margin: 0;
+    right:-15px;
+    top:52%;
+    color: black;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 16px;
+}
+
+.red_button{
+    position: relative;
+    display: block;
+    background: var(--solace-red-button);
+    color:var(--solace-white);
+    width: 180px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 500;
+    outline: transparent;
+    border: transparent;
+}
+
+.red_button.create_article{
+    margin-top: 15px;
+}
+
+.red_button:focus{
+    outline: none;
+}
+
+.grey_button{
+    position: relative;
+    background: var(--solace-button-grey);
+    color: var(--solace-white);
+    border-color: transparent;
+}
+
+.grey_button.no_account_button{
+    margin: 15px 0;
+    width: 244px;
+    height: 23px;
+}
+
+.add_photo {
+    border: solid 2px var(--solace-black);
+    padding: 0px;
+    height: 40px;
+    border-radius: 8px;
+    width: 50%;
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+}
+
+.add_photo p {
+    margin: auto;
+}
+
+.add_photo.cancel, .add_photo.save{
+    margin: 30px 15px;
+}
+
+
+.button_set {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.button_set button {
+    width: 30%;
+    margin-left: 70px;
+    margin-top: 20px;
+    justify-content: center;
+    background: var(--solace-light-grey);
+    color: black;
+}
+
+.card_creds {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 4px var(--solace-red);
+    border-radius: 15px;
+    width: 65%;
+    padding: 30px 30px 20px 30px;
+    margin: auto;
+    background-color: var(--solace-black);
+}
+
+#red {
+    background: var(--solace-red-button);
+    color:var(--solace-white);
+}
+
+.right_block {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 80%;
+    margin-top: 20px;
+}

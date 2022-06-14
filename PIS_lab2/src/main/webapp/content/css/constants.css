@@ -1,0 +1,12 @@
+:root{
+    --solace-black: rgba(51,51,51,1);
+    --solace-grey: rgba(229,229,229,1);
+    --solace-dark-grey:rgba(94,94,94,1);
+    --solace-white : rgba(255,255,255,1);
+    --solace-light-grey: rgba(204,204,204,1);
+    --solace-button-grey:rgba(130,130,130,1);
+    --solace-red: rgba(146,55,55,1);
+    --solace-red-button:rgba(156,8,8,1);
+    --solace-middle-grey:rgba(204,204,204,1);
+    --solace-turquoise: rgba(109,200,200,1);
+}

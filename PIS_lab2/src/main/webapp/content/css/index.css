@@ -1,0 +1,42 @@
+@import "./constants.css";
+
+.role_cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    flex: 1 1 auto;
+}
+
+.role_card {
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 200px;
+    height: auto;
+    display: flex;
+    margin: 0 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.role_card a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: inline;
+}
+
+.role_card img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 10px 0 20px 0;
+}
+
+.role_card h4 {
+    position: absolute;
+    bottom: 5px;
+    margin: auto;
+}

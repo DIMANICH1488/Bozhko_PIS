@@ -1,0 +1,40 @@
+@import "constants.css";
+
+.footer{
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    background-color: var(--solace-black);
+    color:var(--solace-white);
+    display: flex;
+    align-items: center;
+}
+
+.footer a{
+    position: absolute;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    font-size: 30px;
+    border-radius: 8px;
+    border: 2px solid var(--solace-white);
+    color: var(--solace-red);
+    overflow: hidden;
+}
+
+.footer a:nth-child(2){
+    right:55px;
+}
+
+.footer a:nth-child(3){
+    right:20px;
+}
+
+.footer p{
+    position: relative;
+    left:10px;
+    padding-right: 100px;
+}

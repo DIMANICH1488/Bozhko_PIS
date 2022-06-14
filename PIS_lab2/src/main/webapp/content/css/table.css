@@ -1,0 +1,54 @@
+@import "./constants.css";
+
+.table_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.table {
+    position: relative;
+    flex: 0 0 auto;
+    margin: 40px;
+    background: var(--solace-dark-grey);
+    color: var(--solace-white);
+    border-collapse: collapse;
+    font-family: Roboto;
+}
+
+.table tr:nth-child(even) {
+    background-color: var(--solace-light-grey);
+}
+
+.table th, td {
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.table th {
+    font-size: 18px;
+}
+
+.table td {
+    font-size: 17px;
+    font-style: italic;
+}
+
+.table td a{
+    font-size: 15px;
+    color:var(--solace-white);
+    text-decoration: none;
+}
+
+.table td a:hover{
+    color:var(--solace-red);
+    cursor:pointer;
+}
+
+.table_page h3{
+    position: relative;
+    font-size: 20px;
+    margin: 10px 0;
+    color: var(--solace-dark-grey);
+}
